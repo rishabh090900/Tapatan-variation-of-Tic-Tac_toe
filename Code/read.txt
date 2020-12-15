@@ -1,0 +1,8 @@
+First we have intialized a matrix of 3×3 Also the bot and human in the code.
+Than we have intialized a isComplete function to check if the game has ended or not or whats is the state of the game If the state is 1 means win and if its -1 means its not complete 
+Than we have intialized a isComplete function to check if the game has ended or not or whats is the state of the game. This function checks both the horizontal lines and the vertical lines if some is completely filled with same it tells the clear win 
+Than we have getdragmoves which creates a dictionary of elements which are stored in the matrix And returns the dictionary.
+Than in get move function is returning the list of empty blocks 
+And than we come to minimax algorithm its has three different parts once it is checking if the depth is more than 7 or not than calls the isComplete function in a variable Than it checks the Maxplayer if its is best or not 
+In second state the point where the game changed that it counts if 6 chances are done or not if done it calls the getdragmoves and applies the minimax algorithm on it else it will call the get move function and work normally 
+At last the main function play if in which it calls the turn of the human and bo linewise and check if someone won or not or if the turn is valid or invalid .
